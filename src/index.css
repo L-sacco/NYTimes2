@@ -1,0 +1,24 @@
+@media (max-width: 500px) {
+  body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 20;
+}
+img {
+  max-width: 575px;
+}

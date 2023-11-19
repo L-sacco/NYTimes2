@@ -1,0 +1,38 @@
+@media (max-width: 700px) {
+  .search-block-card {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+}
+
+.search-block-card {
+  padding: 1rem 3rem;
+  max-width: 900px;
+  min-height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: none none solid none;
+  border-color: #e2e2e2;
+}
+.search-block-card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  min-width: 50%;
+}
+.search-block-card-image img {
+  max-width: 300px;
+  max-height: 225px;
+}
+.search-block-card-content {
+  min-width: 50%;
+  max-width: 70%;
+}
+.search-block-card-content > .card {
+  width: 100%;
+}

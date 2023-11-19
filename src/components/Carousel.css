@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+  .carousel-container .swiper-slide {
+    min-width: 50% !important;
+  }
+  
+}
+.swiper {
+  width: 100% !important;
+}
+
+.carousel-container {
+  height: 600px;
+}
+.carousel-container .swiper-slide {
+  width: 25% !important;
+}

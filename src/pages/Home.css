@@ -1,0 +1,78 @@
+@media (max-width: 1000px) {
+  main {
+    width: 600px !important;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .top-stories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+@media (max-width: 600px) {
+  main, .right {
+    width: 450px !important;
+  }
+}
+
+.main-container {
+  max-width: 1200px !important;
+  height: 100vh;
+}
+main {
+  width: inherit;
+}
+.top-stories {
+  display: flex;
+  flex-wrap: wrap;
+  width: inherit;
+}
+
+section {
+  border-bottom: 1px solid black;
+}
+.left {
+  max-width: 900px !important;
+  padding: 0 1rem 0 0;
+  border-right: 1px solid #e2e2e2;
+}
+.right {
+  padding: 0 0 0 1rem;
+}
+
+.breaking {
+  animation-name: blink;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: Infinite;
+  color: red;
+  z-index: 999;
+}
+@keyframes blink {
+  0% {
+    color: red;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: red;
+  }
+}
+.live-text {
+  text-align: start;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  align-items: center;
+}
+.live-text > :nth-child(3) {
+  margin-left: auto;
+}
+.live-text i {
+  margin: 0 0.3rem;
+}

@@ -1,0 +1,16 @@
+h4 {
+  margin: 0.5rem;
+}
+h5 {
+  font-weight: 400;
+  color: #85898a;
+  margin: 0.5rem;
+}
+h6 {
+  margin: 0.5rem;
+  color: #85898a;
+  text-align: end;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
