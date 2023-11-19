@@ -110,7 +110,7 @@ export default function NavBar() {
         </div>
         <Link to="/">
           <img
-            src="./src/assets/logo.png"
+            src="./public/assets/logo.png"
             alt="New York Times Logo"
             style={{ width: "27.5rem" }}
           />
