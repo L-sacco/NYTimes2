@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="top-footer">
-        <img src="/src/assets/logo.png" alt="New York Times Logo" style={{ width: "13rem" }} />
+        <img src="./src/assets/logo.png" alt="New York Times Logo" style={{ width: "13rem" }} />
       </div>
       <div className="mid-footer">
         <div>
